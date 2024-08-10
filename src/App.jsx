@@ -45,15 +45,15 @@ function App() {
     <div>
       <h1 className="text-2xl font-bold mb-4">Listado de precios</h1>
 
-        <input onChange={buscar} className="ring-2 w-40 p-2 rounded-sm mb-2" type="text" name="busqueda" placeholder="Busca un producto"/>
+        <input onChange={buscar} className="ring-2 w-40 p-2 rounded-sm mb-4" type="text" name="busqueda" placeholder="Busca un producto"/>
         {/* <input className="border-solid border-2 mb-4 p-2 w-28" type="submit" value="Buscar"/> */}
 
-      <div className="flex flex-wrap md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 pl-4 justify-center">
+      <div className="flex flex-wrap md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-center">
         {listado.map((item) => {
           return (
             <article
               key={item.id}
-              className="w-72 h-40 text-veryDarkBlue mt-2 mb-16 border-2 shadow p-2"
+              className="w-72 h-40 text-veryDarkBlue mb-4 border-2 shadow p-2"
             >
               <h3 className="ml-8 mt-6 text-xl font-bold">{item.producto}</h3>
               <p className="ml-8 mt-2">
