@@ -53,11 +53,9 @@ function App() {
           return (
             <article
               key={item.id}
-              className="w-[80%] text-veryDarkBlue mt-2 mb-16 border-2 shadow"
+              className="w-72 h-40 text-veryDarkBlue mt-2 mb-16 border-2 shadow p-2"
             >
-              <h3 className="ml-8 mt-6 text-lg font-bold">{item.producto}</h3>
-              <p className="ml-8 mt-2">Precio compra: {item.precio}</p>
-              <p className="ml-8 mt-2">Unidades: {item.unidades}</p>
+              <h3 className="ml-8 mt-6 text-xl font-bold">{item.producto}</h3>
               <p className="ml-8 mt-2">
                 Precio Dolares: {item.precioDolar.toFixed(3)} $
               </p>
