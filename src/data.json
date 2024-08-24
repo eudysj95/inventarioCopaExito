@@ -858,11 +858,15 @@
             "producto": "Servilletas pequeñas",
             "precio": "4.60",
             "unidades": 6
-        },
-        {
+        },{
             "producto": "Shampoo de sobre Pantene",
             "precio": "3.92",
             "unidades": 12
+        },
+        {
+            "producto": "Shampoo de pote Pantene",
+            "precio": "13.17",
+            "unidades": 3
         },
         {
             "producto": "Shampoo de sobre Alive",
