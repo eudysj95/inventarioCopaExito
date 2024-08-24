@@ -241,7 +241,7 @@
         },
         {
             "producto": "Chocolate Chic Choc",
-            "precio": "3.02",
+            "precio": "4.23",
             "unidades": 24
         },
         {
@@ -308,6 +308,11 @@
             "producto": "Desodorante Balance",
             "precio": "7.85",
             "unidades": 32
+        },
+        {
+            "producto": "Desodorante de tubo lady speed stick",
+            "precio": "10.5",
+            "unidades": 6
         },
         {
             "producto": "Detergente Oxy y 3B+ 400gr",
