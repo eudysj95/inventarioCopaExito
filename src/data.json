@@ -421,8 +421,8 @@
         },
         {
             "producto": "Gatorade",
-            "precio": "6.00",
-            "unidades": 6
+            "precio": "16.00",
+            "unidades": 12
         },
         {
             "producto": "Gomitas Play paquete",
@@ -641,7 +641,7 @@
         },
         {
             "producto": "Mayonesa Pequeña",
-            "precio": "1.60",
+            "precio": "1.40",
             "unidades": 1
         },
         {
