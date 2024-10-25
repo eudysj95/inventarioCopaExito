@@ -7,7 +7,7 @@ function App() {
   const [listado, setListado] = useState([]);
   const [busquedaState, setBusquedaState] = useState('')
 
-  let tasa = 40;
+  let tasa = 42;
   let porcentaje = 1.20;
 
   useEffect(() => {
